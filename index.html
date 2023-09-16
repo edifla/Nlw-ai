@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Nlw AI</title>
+
+    <title>Shorts Summary</title>
   </head>
   <body>
     <div id="app">
@@ -18,14 +21,16 @@
       <h1>Shorts Summary</h1>
 
       <form id="form">
-        <input type="url" id="url" placeholder="Video URL" />
-        <button title="summarize"><i class="ph ph-play"></i></button>
+        <input type="url" id="url" placeholder="URL do vídeo" />
+        <button title="Resumir">
+          <i class="ph ph-play"></i>
+        </button>
       </form>
 
-      <h2>Summarize</h2>
-      <p class="placeholder" id="content">Choose a short to summarize</p>
+      <h2>Resumo</h2>
+      <p id="content" class="placeholder">Escolha um short para resumir</p>
     </div>
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <script type="module" src="web/main.js"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
   </body>
 </html>
